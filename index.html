@@ -5,86 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Educação Financeira Angola | Dicas de Poupança e Investimento</title>
     <style>
-        /* Estilo Profissional e Responsivo */
-        :root { --primary: #004a99; --secondary: #28a745; --dark: #333; --light: #f4f4f4; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: var(--dark); margin: 0; padding: 0; background: var(--light); }
-        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; }
-        nav { background: #222; color: white; padding: 10px; text-align: center; position: sticky; top: 0; z-index: 1000; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 0.9em; }
-        .container { max-width: 900px; margin: 20px auto; padding: 25px; background: white; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        /* Estilo Profissional, Limpo e Responsivo */
+        :root { --primary: #004a99; --secondary: #28a745; --dark: #222; --light: #f9f9f9; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.8; color: #333; margin: 0; padding: 0; background: var(--light); }
         
-        /* Botão do Simulador */
-        .btn-cta { display: block; background: var(--secondary); color: white; text-align: center; padding: 20px; 
-                   text-decoration: none; font-weight: bold; border-radius: 8px; margin: 30px 0; font-size: 1.2em;
-                   transition: transform 0.3s; border: none; cursor: pointer; }
-        .btn-cta:hover { transform: scale(1.02); background: #218838; }
+        header { background: var(--primary); color: white; padding: 50px 20px; text-align: center; }
+        
+        nav { background: var(--dark); color: white; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 0.95em; }
+        nav a:hover { color: var(--secondary); }
 
-        article h2 { color: var(--primary); border-left: 5px solid var(--secondary); padding-left: 15px; margin-top: 40px; }
-        p { margin-bottom: 20px; text-align: justify; }
-        .highlight { background: #e7f3ff; padding: 15px; border-radius: 5px; font-style: italic; }
+        .container { max-width: 850px; margin: 30px auto; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
         
-        footer { background: var(--dark); color: white; padding: 30px; text-align: center; margin-top: 50px; font-size: 0.8em; }
-        footer a { color: #aaa; text-decoration: none; margin: 0 10px; }
+        /* Botão de Destaque para o Simulador */
+        .btn-cta { display: block; background: var(--secondary); color: white; text-align: center; padding: 22px; 
+                   text-decoration: none; font-weight: bold; border-radius: 10px; margin: 35px 0; font-size: 1.25em;
+                   transition: transform 0.3s, background 0.3s; border: none; box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3); }
+        .btn-cta:hover { transform: translateY(-3px); background: #218838; color: white; }
+
+        h1 { color: var(--primary); font-size: 2em; }
+        h2 { color: var(--primary); border-left: 6px solid var(--secondary); padding-left: 15px; margin-top: 45px; font-size: 1.5em; }
+        p { margin-bottom: 22px; text-align: justify; color: #444; }
         
-        @media (max-width: 600px) { .container { margin: 10px; padding: 15px; } .btn-cta { font-size: 1em; } }
+        .box-destaque { background: #eef7ee; border-right: 5px solid var(--secondary); padding: 20px; border-radius: 5px; margin: 25px 0; }
+        
+        footer { background: var(--dark); color: #ddd; padding: 40px 20px; text-align: center; margin-top: 60px; font-size: 0.85em; }
+        footer a { color: #fff; text-decoration: underline; }
+
+        /* Ajustes para Telemóvel (Samsung A14) */
+        @media (max-width: 600px) {
+            header { padding: 30px 15px; }
+            .container { margin: 15px; padding: 20px; }
+            h1 { font-size: 1.6em; }
+            nav a { margin: 0 8px; font-size: 0.8em; }
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Educação Financeira Angola 🇦🇴</h1>
-    <p>O teu guia para dominar o dinheiro e construir um futuro sólido.</p>
+    <p>Aprende a investir e a multiplicar o teu dinheiro com segurança.</p>
 </header>
 
 <nav>
-    <a href="#inicio">Início</a>
-    <a href="#artigo">Investir sendo Estudante</a>
-    <a href="https://lavidcoelho-creator.github.io/" target="_blank">Simulador Grátis</a>
+    <a href="#artigo">Ler Artigo</a>
+    <a href="https://izzydavidcoelho-creator.github.io/" target="_blank">Simulador Oficial</a>
+    <a href="#privacidade">Privacidade</a>
 </nav>
 
-<div class="container" id="inicio">
+<div class="container">
+    
     <article id="artigo">
-        <h1>Como Investir Dinheiro Sendo Estudante em Angola: O Guia Completo</h1>
-        <p>Muitos jovens angolanos acreditam que, para começar a investir, é necessário ter milhões de Kwanzas na conta bancária. No entanto, o maior ativo de um estudante não é o dinheiro em si, mas sim o <strong>tempo e a consistência</strong>.</p>
+        <h1>Como Investir Dinheiro Sendo Estudante em Angola: O Guia Definitivo</h1>
         
-        <p>Neste guia, vamos explorar como tu, mesmo com pouco, podes começar a construir a tua liberdade financeira enquanto terminas os teus estudos na universidade ou no ensino médio.</p>
+        <p>Muitos jovens em Luanda, Benguela e por toda Angola acreditam que investir é algo apenas para "ricos". No entanto, a verdade é que o investimento é uma ferramenta de sobrevivência e crescimento para qualquer estudante que deseja pagar as suas propinas com tranquilidade ou ajudar a família.</p>
 
-        <h2>1. A Mentalidade de Poupança no Contexto Angolano</h2>
-        <p>Gerir o orçamento familiar ou a "mesada" em Angola exige disciplina. Entre o custo do transporte (candongueiros) e as propinas, o dinheiro parece voar. O investimento começa na poupança real: se conseguires poupar 5.000 Kz por mês, já estás à frente da maioria.</p>
-        
-        <div class="highlight">
-            "Não poupes o que resta depois de gastar, gasta o que resta depois de poupar." - Warren Buffett
+        <p>Neste guia completo, vamos mostrar-te como podes começar a investir mesmo com quantias pequenas, focando no que realmente funciona no nosso mercado nacional.</p>
+
+        <h2>1. Porquê Investir Enquanto Estudas?</h2>
+        <p>O tempo é o teu melhor amigo. Quando começas a investir aos 18 ou 20 anos, estás a usar o poder dos <strong>juros compostos</strong>. Isso significa que o dinheiro que poupas hoje vai crescer de forma acelerada nos próximos anos. Ser estudante é a fase ideal para aprender a gerir o pouco que se tem para colher muito no futuro.</p>
+
+        <div class="box-destaque">
+            <strong>Dica prática:</strong> Tenta poupar pelo menos 2.000 Kz por semana. No final do mês, terás um capital que já pode ser colocado numa conta poupança ou usado para comprar livros de finanças.
         </div>
 
-        <h2>2. O Poder dos Juros Compostos</h2>
-        <p>Os juros compostos são o segredo da riqueza. Quando investes cedo, os teus lucros geram novos lucros. Para um estudante, começar aos 18 anos pode significar uma reforma milionária, graças ao tempo de exposição ao mercado.</p>
-
-        <a href="https://lavidcoelho-creator.github.io/" class="btn-cta">
-            CALCULAR MEUS LUCROS NO SIMULADOR 📈<br>
-            <small>Clica aqui para ver quanto o teu dinheiro pode render</small>
+        <a href="https://izzydavidcoelho-creator.github.io/" class="btn-cta" target="_blank">
+            ACEDER AO SIMULADOR DE INVESTIMENTOS 🚀<br>
+            <small style="font-size: 0.6em; display: block; margin-top: 5px;">Calcula agora quanto o teu dinheiro pode render em Kwanzas</small>
         </a>
 
-        <h2>3. Onde Investir em Angola?</h2>
-        <p>Atualmente, existem opções seguras como os <strong>Títulos do Tesouro</strong>, que podes subscrever via bancos como BAI ou BFA. Além disso, as contas poupança programadas ajudam a criar o hábito de investir todos os meses assim que recebes o teu dinheiro.</p>
+        <h2>2. Opções de Investimento em Angola</h2>
+        <p>Existem formas seguras de colocar o teu dinheiro a render sem correr riscos desnecessários. Os <strong>Títulos do Tesouro</strong> e as <strong>Obrigações</strong> são garantidos pelo Estado Angolano e pagam taxas de juro muito superiores às contas normais. Podes informar-te no teu banco (BAI, BFA, etc.) sobre como subscrever estes títulos diretamente pelo Multicaixa Express ou no balcão.</p>
 
-        <h2>4. Planeamento Financeiro com Tecnologia</h2>
-        <p>Não basta guardar dinheiro; é preciso medir. Usar simuladores e apps de finanças ajuda a manter o foco no objetivo, seja ele comprar um computador novo ou pagar um curso de especialização.</p>
+        <h2>3. O Planeamento é a Chave do Sucesso</h2>
+        <p>Não basta querer investir, é preciso saber quanto e por quanto tempo. Usar ferramentas digitais de simulação ajuda-te a visualizar o futuro. Se o teu objetivo é comprar um computador daqui a 2 anos, o simulador dir-te-á exatamente quanto precisas de guardar todos os meses para atingir essa meta sem falhas.</p>
+
+        <h2>4. Conclusão</h2>
+        <p>O futuro de Angola depende da educação financeira da nossa juventude. Começar hoje com o que tens é melhor do que esperar por amanhã com o que não tens. Usa a tecnologia a teu favor e faz do teu telemóvel uma ferramenta de riqueza.</p>
     </article>
 
-    <hr>
+    <hr style="margin: 50px 0; border: 0; border-top: 1px solid #eee;">
 
-    <section id="privacidade" style="font-size: 0.8em; color: #666; margin-top: 50px;">
+    <section id="privacidade" style="font-size: 0.85em; color: #777;">
         <h3>Política de Privacidade</h3>
-        <p>A sua privacidade é importante para nós. É política deste blog respeitar a sua privacidade em relação a qualquer informação que possamos coletar. Não solicitamos informações pessoais, a menos que realmente precisemos delas para lhe fornecer um serviço. Este site utiliza cookies básicos para melhorar a sua experiência e exibir anúncios através do Google AdSense.</p>
+        <p>Este blog de Educação Financeira Angola respeita a sua privacidade. Não recolhemos dados pessoais sensíveis sem o seu consentimento. Utilizamos cookies de terceiros, como os do Google AdSense, para exibir anúncios relevantes baseados nas suas visitas anteriores. Estes anúncios ajudam a manter este site gratuito para todos os estudantes angolanos.</p>
     </section>
 </div>
 
 <footer>
-    <p>&copy; 2026 Educação Financeira Angola - Criado para ajudar jovens investidores.</p>
+    <p>&copy; 2026 Educação Financeira Angola | Criado por Izzy David Coelho</p>
     <p>
-        <a href="#artigo">Artigos</a> | 
-        <a href="https://lavidcoelho-creator.github.io/">Simulador Financeiro</a> | 
-        <a href="#">Sobre Nós</a>
+        <a href="https://izzydavidcoelho-creator.github.io/" target="_blank">Visitar Simulador</a> | 
+        <a href="#artigo">Topo da Página</a>
     </p>
 </footer>
 
