@@ -3,62 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educação Financeira Angola | Dicas de Poupança</title>
+    <title>Educação Financeira Angola | Investimentos para Estudantes</title>
     <style>
-        :root { --primary: #004a99; --secondary: #28a745; --dark: #222; --light: #f9f9f9; }
-        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.8; color: #333; margin: 0; padding: 0; background: var(--light); }
-        header { background: var(--primary); color: white; padding: 50px 20px; text-align: center; }
-        nav { background: var(--dark); color: white; padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; font-size: 0.95em; }
-        nav a:hover { color: var(--secondary); }
-        .container { max-width: 850px; margin: 30px auto; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.08); }
-        .btn-cta { display: block; background: var(--secondary); color: white !important; text-align: center; padding: 22px; 
-                   text-decoration: none; font-weight: bold; border-radius: 10px; margin: 35px 0; font-size: 1.25em;
-                   transition: transform 0.3s; box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3); }
-        .btn-cta:hover { transform: translateY(-3px); background: #218838; }
-        h1 { color: var(--primary); }
-        h2 { color: var(--primary); border-left: 6px solid var(--secondary); padding-left: 15px; }
-        footer { background: var(--dark); color: #ddd; padding: 40px 20px; text-align: center; margin-top: 60px; font-size: 0.85em; }
-        footer a { color: #fff; text-decoration: none; margin: 0 10px; }
+        :root { --primary: #002e5d; --secondary: #28a745; --accent: #0056b3; --light: #ffffff; --text: #333333; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.8; color: var(--text); margin: 0; padding: 0; background-color: #f0f2f5; }
+        
+        /* Cabeçalho */
+        header { background: linear-gradient(135deg, var(--primary), var(--accent)); color: white; padding: 60px 20px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        header h1 { font-size: 2.5em; margin: 0; }
+        header p { font-size: 1.1em; opacity: 0.9; }
+
+        /* Menu de Navegação Alinhado */
+        nav { background: #1a1a1a; padding: 15px 0; position: sticky; top: 0; z-index: 1000; text-align: center; }
+        nav a { color: white; margin: 0 12px; text-decoration: none; font-weight: bold; font-size: 0.9em; transition: 0.3s; display: inline-block; }
+        nav a:hover { color: var(--secondary); transform: translateY(-2px); }
+
+        /* Content Container */
+        .container { max-width: 900px; margin: 30px auto; padding: 40px; background: white; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        
+        /* Artigo e Textos */
+        article h2 { color: var(--primary); border-left: 6px solid var(--secondary); padding-left: 15px; margin-top: 40px; font-size: 1.8em; }
+        p { margin-bottom: 25px; text-align: justify; font-size: 1.05em; color: #444; }
+        
+        /* Botão do Simulador */
+        .btn-cta { display: block; background: var(--secondary); color: white !important; text-align: center; padding: 25px; 
+                   text-decoration: none; font-weight: bold; border-radius: 12px; margin: 40px 0; font-size: 1.3em;
+                   transition: 0.3s; box-shadow: 0 6px 15px rgba(40, 167, 69, 0.4); }
+        .btn-cta:hover { background: #218838; transform: scale(1.02); }
+
+        /* Rodapé */
+        footer { background: #1a1a1a; color: #bbb; padding: 50px 20px; text-align: center; margin-top: 60px; }
+        footer a { color: white; text-decoration: none; margin: 0 10px; font-size: 0.9em; }
+        
+        /* Responsividade para telemóveis */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8em; }
+            nav a { margin: 5px; font-size: 0.8em; display: inline-block; }
+            .container { padding: 20px; margin: 15px; }
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Educação Financeira Angola 🇦🇴</h1>
-    <p>Aprende a investir e a multiplicar o teu dinheiro com segurança.</p>
+    <p>Capacitando a juventude angolana para um futuro de prosperidade e liberdade.</p>
 </header>
 
 <nav>
-    <a href="index.html">Início</a>
-    <a href="sobre.html">Sobre o Projeto</a>
-    <a href="https://izzydavidcoelho-creator.github.io/" target="_blank">Simulador Oficial</a>
-    <a href="privacidade.html">Privacidade</a>
+    <a href="index.html">🏠 Início</a>
+    <a href="sobre.html">👨‍💻 Sobre o Projeto</a>
+    <a href="https://izzydavidcoelho-creator.github.io/" target="_blank">📈 Simulador Oficial</a>
+    <a href="privacidade.html">🛡️ Privacidade</a>
 </nav>
 
 <div class="container">
     <article>
-        <h1>Como Investir Dinheiro Sendo Estudante em Angola</h1>
-        <p>Muitos jovens acreditam que investir é apenas para quem já tem muito dinheiro. Mas a verdade é que o maior trunfo de um estudante é o tempo. Começar com pouco hoje, de forma consistente, é o segredo para um futuro financeiro sólido.</p>
+        <h1>Como Construir Riqueza Sendo Estudante no Contexto de Angola</h1>
+        
+        <p>A educação financeira é, sem dúvida, um dos pilares mais importantes para o desenvolvimento sustentável de qualquer jovem em Angola. Num cenário económico onde a inflação e a variação cambial são desafios constantes, entender como gerir o Kwanza torna-se uma habilidade de sobrevivência. Muitos estudantes acreditam que o investimento é um privilégio reservado apenas para as elites financeiras de Luanda, mas a verdade é que o mercado financeiro está cada vez mais acessível a qualquer pessoa que possua disciplina, um telemóvel e acesso à informação correta.</p>
+
+        <p>Investir enquanto se estuda não é apenas sobre acumular dinheiro, mas sim sobre desenvolver uma mentalidade de abundância e responsabilidade. Ao poupar pequenas quantias provenientes da mesada ou de pequenos trabalhos informais, o estudante angolano começa a entender o valor do sacrifício presente em prol de um benefício futuro muito maior. O tempo, neste caso, é o recurso mais valioso: quanto mais cedo se começa a aprender sobre juros compostos, maior será a base de capital acumulada ao atingir a idade adulta e o mercado de trabalho formal.</p>
 
         <a href="https://izzydavidcoelho-creator.github.io/" class="btn-cta" target="_blank">
-            ACEDER AO SIMULADOR DE INVESTIMENTOS 🚀<br>
-            <small style="font-size: 0.6em; display: block; margin-top: 5px;">Calcula agora quanto o teu dinheiro pode render</small>
+            🚀 ACEDER AO SIMULADOR DE INVESTIMENTOS<br>
+            <small style="font-size: 0.6em; display: block; margin-top: 8px;">Descobre o potencial do teu dinheiro hoje mesmo!</small>
         </a>
 
-        <h2>Por onde começar?</h2>
-        <p>O primeiro passo é a educação. Entender como funcionam os juros e as opções disponíveis nos bancos angolanos (como o BAI ou BFA) é fundamental antes de colocar o seu Kwanza a trabalhar.</p>
-        <p>Para ler mais sobre a nossa missão e como este projeto pode ajudar-te, visita a nossa página <a href="sobre.html" style="color:var(--primary); font-weight:bold;">Sobre Nós</a>.</p>
+        <h2>A Importância da Literacia Financeira nas Escolas e Universidades</h2>
+        <p>Infelizmente, o sistema de ensino tradicional muitas vezes foca-se apenas em teorias académicas, deixando de lado o ensino prático sobre como abrir uma conta poupança, como funcionam os Títulos do Tesouro do Estado Angolano ou como evitar dívidas desnecessárias com o consumo imediato. A literacia financeira permite que o jovem tome decisões informadas, evitando cair em esquemas fraudulentos ou investimentos de alto risco sem o devido conhecimento técnico. É necessário compreender que cada Kwanza poupado é um funcionário a trabalhar para o seu futuro.</p>
+
+        <p>Em Angola, temos visto um crescimento interessante nas opções bancárias e tecnológicas. Hoje, através do Multicaixa Express, é possível gerir contas com uma facilidade que não existia há uma década. Bancos como o BAI, BFA e o Banco Millennium Atlântico oferecem produtos específicos para jovens que desejam começar a investir com valores baixos. O segredo não reside na quantia inicial, mas sim na constância dos aportes mensais, que transformam pequenos poupados em grandes patrimónios ao longo de anos de dedicação e estudo contínuo do mercado.</p>
+
+        <h2>Planeamento Estratégico: O Caminho para a Independência</h2>
+        <p>Para o estudante que deseja realmente mudar de vida, o primeiro passo é a criação de um orçamento detalhado. É fundamental anotar cada gasto, desde o transporte público (candongueiros) até às cópias e livros escolares. Ao visualizar para onde vai o dinheiro, torna-se mais fácil identificar onde é possível cortar gastos supérfluos para alimentar os seus investimentos. O uso de simuladores financeiros, como o que disponibilizamos neste portal, serve como um guia visual para manter a motivação alta, mostrando matematicamente onde poderá chegar se mantiver o foco.</p>
+
+        <p>Em resumo, ser um investidor em Angola sendo estudante exige coragem e uma visão de longo prazo. O caminho não é imediato e requer muita paciência, mas os frutos da liberdade financeira valem cada esforço. Este portal foi criado precisamente para ser o teu companheiro nesta jornada, oferecendo as ferramentas e o conhecimento necessário para que possas navegar no mundo das finanças com segurança, ética e inteligência. O teu futuro financeiro começa com a decisão que tomas hoje.</p>
     </article>
 </div>
 
 <footer>
-    <p>&copy; 2026 Educação Financeira Angola | Criado por Izzy David Coelho</p>
+    <p>&copy; 2026 Educação Financeira Angola | Todos os direitos reservados.</p>
     <p>
-        <a href="sobre.html">Sobre</a> | 
-        <a href="privacidade.html">Privacidade</a> | 
-        <a href="https://izzydavidcoelho-creator.github.io/" target="_blank">Simulador</a>
+        <a href="index.html">🏠 Início</a> | 
+        <a href="sobre.html">👨‍💻 Sobre o Projeto</a> | 
+        <a href="https://izzydavidcoelho-creator.github.io/" target="_blank">📈 Simulador</a> | 
+        <a href="privacidade.html">🛡️ Privacidade</a>
     </p>
+    <p style="margin-top: 20px; font-size: 0.8em; opacity: 0.6;">Criado com dedicação para a juventude angolana.</p>
 </footer>
 
 </body>
